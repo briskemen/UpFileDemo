@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--底部按钮，默认的按钮样式 -->
+    <style name="bt_common">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/d_80</item>
+        <item name="android:layout_marginLeft">@dimen/d_40</item>
+        <item name="android:layout_marginRight">@dimen/d_40</item>
+        <item name="android:layout_marginTop">@dimen/d_40</item>
+        <item name="android:layout_marginBottom">@dimen/d_40</item>
+        <item name="android:background">@drawable/shape_combt_bg</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/d_36</item>
+    </style>
+
+</resources>

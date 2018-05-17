@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">UpFileDemo</string>
+    <string name="upload_pic">上传图片</string>
+    <string name="commit">提交</string>
+</resources>

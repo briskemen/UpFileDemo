@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:orientation="vertical">
+
+
+    <com.nex3z.flowlayout.FlowLayout
+        android:id="@+id/fl_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/d_20"
+        android:paddingLeft="@dimen/d_20"
+        android:paddingRight="@dimen/d_20"
+        app:flChildSpacing="@dimen/d_20"
+        app:flRowSpacing="@dimen/d_20"/>
+
+    <include layout="@layout/layout_add_pic"/>
+
+    <Button
+        android:id="@+id/bt_commit"
+        style="@style/bt_common"
+        android:text="@string/commit" />
+</LinearLayout>
